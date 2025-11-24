@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int inverternumero(int x) {
+    
+    int ivertido = 0;
+    
+    for (; x > 0; x = x / 10) {
+        int digito = x % 10;
+        invertido = invertido * 10 + digito;
+        
+    }
+    
+    return invertido;
+}
+
+int main() {
+    int numero:
+    
+    cout << "Digite um numero inteiro: ";
+    cin >> numero;
+    
+    cout << "Numero ivertido: " << inverternumero(numero) << endl;
+
+    return 0;
+}
